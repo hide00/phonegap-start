@@ -74,7 +74,8 @@
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
     <gap:plugin name="nl.x-services.plugins.insomnia" version="4.0.1" />
-    <gap:plugin name="nl.madebymark.share" version="0.1.1" />
+    <!--OK gap:plugin name="nl.madebymark.share" version="0.1.1" /-->
+    <gap:plugin name="nl.x-services.plugins.socialsharing" source="plugins.cordova.io" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
